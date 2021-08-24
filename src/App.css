@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+        background: url('https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293_960_720.jpg');
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+}
+.form_class{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.form_class input{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px ;
+}
+.form_class button{
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.bg-div{
+    display: flex;
+    opacity: 9;
+    flex-direction: column;
+    min-height: 580px;
+    justify-content: center;
+    min-width: 400px;
+    margin-top: 20%;
+    /* border: 2px solid black; */
+    position: relative;
+    box-shadow: 0px 14px 14px rgba(0,0,0,0.6);
+}
+.bg-div .main-tem{
+    font-size: 8rem;
+    margin: 4rem 0;
+    padding-bottom:4.5rem; 
+}
+.bg-div h1{
+    font-size: 3.5rem;
+    color: black;
+    margin: 0 17%;
+}
+.bg-div h2{
+    font-size: 1rem;
+    color: black;
+    margin: 1rem 25%;
+}
+.anouther-div{
+    margin: 20% auto;
+}
+.div-3{
+    position: absolute;
+    bottom: 0;
+    background-color: transparant;
+    margin: 0 auto;
+    height: 12rem;
+    width: 100%;
+}
+.nextday-data{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    margin: 20% 3rem;
+}
+.nextday-data section{
+    margin: 0 1.5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .form_class{
+        width: 90vw;
+        position: static;
+        margin: 2rem 0px 0px 2.8rem;
+    }
+    .bg-div{
+        width: 100%;
+    }
+    .nextday-data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+  }
